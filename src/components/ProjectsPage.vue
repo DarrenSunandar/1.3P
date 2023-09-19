@@ -23,7 +23,7 @@
             title: "Space shooter game using c++",
             description: "I create a simple space shooter program that can be play, restart, also it show the score we got.",
           },
-          // Add more projects here
+          
         ],
       };
     },

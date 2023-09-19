@@ -13,11 +13,9 @@
   
   <script>
   export default {
-    // Add component logic here
+  
   };
   </script>
   
-  <style scoped>
-  /* Add header styles here */
-  </style>
+
   

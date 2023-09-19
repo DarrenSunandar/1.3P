@@ -19,12 +19,12 @@
         <label for="email">Email:</label>
         <input type="email" id="email" v-model="formData.email" required>
       </div>
-      <!-- Add a contact number field -->
+      
       <div class="form-group">
         <label for="contact-number">Contact Number:</label>
         <input type="tel" id="contact-number" v-model="formData.contactNumber" required>
       </div>
-      <!-- Add an additional message for clarity -->
+      
       <div class="form-group">
         <label for="message">Message:</label>
         <textarea id="message" v-model="formData.message" required></textarea>
@@ -41,20 +41,17 @@ export default {
       formData: {
         name: "",
         email: "",
-        contactNumber: "", // Added contact number field
+        contactNumber: "", 
         message: "",
       },
     };
   },
   methods: {
     submitForm() {
-      // Handle form submission here
+      
       console.log("Form submitted:", this.formData);
     },
   },
 };
 </script>
 
-<style scoped>
-/* Add contact styles here */
-</style>

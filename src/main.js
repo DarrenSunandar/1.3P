@@ -5,7 +5,7 @@ import './styles.css'
 
 const app = createApp(App)
 
-// Use Vue Router
+
 app.use(router)
 
 app.mount('#app')

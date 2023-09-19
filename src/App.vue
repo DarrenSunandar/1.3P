@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style>
-/* Add global styles here */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -27,7 +27,6 @@ body {
   text-align: center;
 }
 
-/* Customize the style of the header */
 header {
   background-color: #333;
   color: #fff;
@@ -53,6 +52,6 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff5733; /* Change to your desired hover color */
+  color: #ff5733; 
 }
 </style>
